@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fa/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    }
+    #containter{
+    width: 90%;
+    min-height: 1200px;
+    margin: 0 auto;
+    }
+    #header{
+    width: 100%;
+    height: 60px;
+    background: white;
+    padding: 7px;
+    box-sizing: border-box;
+    }
+    #logo{
+    width: 120px;
+    height: 40px;
+    float: left;
+    }
+    #logo>a>img{
+    width: 105px;
+    height: 22px;
+    margin: 12px;
+    box-sizing: border-box;
+    }
+    #menu1{
+    width: 500px;
+    height: 40px;
+    float: left;
+    margin-left: 20px;
+    }
+    #nav1{
+    margin: 15px;
+    }
+    #nav1 li{
+    list-style: none;
+    float: left;
+    }
+    #nav1 li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #413e3e;
+    font-size: 15px;
+    }
+    #menu2{
+    width: 500px;
+    height: 40px;
+    float: right;
+    margin: 10px;
+    margin-right: -20px;
+    background: white;
+    }
+    #nav2{
+    margin: 5px;
+    }
+    #nav2 li{
+    list-style: none;
+    float: right;
+    }
+    #nav2 li a{
+    text-decoration: none;
+    margin-right:  20px; 
+    color: #413e3e;
+    font-size: 15px;
+    }
+    #content{
+    width: 100%;
+    min-height: 1000px;
+    z-index: 100;
+    }
+    #poster{
+    width: 100%;
+    min-height: 500px;
+    top: 0;
+    left: 0;
+    }
+    #poster img{
+    width: 100%;
+    min-height: 500px;
+    margin-top: -10px;
+    }
+    #cont1{
+    width: 50%;
+    height: 160px;
+    background: white;
+    margin: 20px auto;
+    }
+    .cont1_div1Box{
+    width: 150px;
+    height: 100px;
+    margin: 30px 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    }
+    .cont1_div1Box a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: darkred;
+    }
+    .cont2_divBox{
+    width: 300px;
+    min-height: 320px;
+    float: left;
+    margin: 20px;
+    
+    box-sizing: border-box;
+    }
+    .cont2_divBox a {
+    text-decoration: none;
+    color: #292727;
+    }
+    .cont2_divBox a img{
+    width: 300px;
+    }   
+    #cont3{
+    width: 98%;
+    min-height: 500px;
+    margin: 0px auto;
+    }
+    #cont3 img{
+    width: 100%;
+    height: 500px;
+    }
+    #btn1{
+    margin: 30px 100px;
+    border: none;
+    background: #000;
+    color: white;
+    padding: 5px 8px;
+    box-sizing: border-box;
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+    }
+    </style>
+</head>
+<body>
+    <div id="containter">
+        <div id="header">
+            <div id="logo"><a href="#"><img src="images/microsoft_logo.png" alt=""></a></div>
+            <div id="menu1">
+                <ul id="nav1">
+                    <li><a href="#">Microsoft 365</a></li>
+                    <li><a href="#">Office</a></li>
+                    <li><a href="#">Windows</a></li>
+                    <li><a href="#">Surface</a></li>
+                    <li><a href="#">Xbox</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div id="menu2">
+                <ul id="nav2">
+                    <li>
+                        <a href="#">Sign in</a>
+                        <div style="float: right; border: 1px solid ; border-radius: 100%; margin: -7px 11px; padding: 5px; width: 20px; height: 20px;">
+                            <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Cart</a>
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <a href="#">Search</a>
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </li>
+                    <li><a href="#">All Microsoft</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <div id="poster">
+                <img src="images/img1.webp" alt="">
+            </div>
+            <div id="cont1">
+                <div class="cont1_div1Box">
+                    <a href="#">
+                        <img src="images/windows_icon.png" alt=""> <br> choose your Microsoft 365
+                    </a>
+                </div>
+                <div class="cont1_div1Box">
+                    <a href="#">
+                        <img src="images/surface.webp" alt=""> <br> Explore Surface devices
+                    </a>
+                </div>
+                <div class="cont1_div1Box">
+                    <a href="#">
+                        <img src="images/Xbox.webp" alt=""> <br> Buy Xbox games
+                    </a>
+                </div>
+                <div class="cont1_div1Box">
+                    <a href="#">
+                        <img src="images/windows_icon.png" alt=""> <br> Get Windows 11
+                    </a>
+                </div>
+            </div>
+            <div id="cont2">
+                <div class="cont2_divBox">
+                    <a href="#">
+                        <img src="images/cont2_img1.webp" alt="">
+                        <h2 style="margin-top: 20px;">Surface Pro 7</h2>
+                        <p style="font-size: 16px; margin: 10px 2px;">Don’t miss a merry moment with the help of powerful processors, 
+                        improved battery life and even more multitasking connections.</p>
+                        <a href="#" style="color: darkred; font-size: 18px; margin-top: 20px;"> 
+                            Shop for Surface Pro 7 > 
+                        </a>
+                    </a>
+                </div>
+                <div class="cont2_divBox">
+                    <a href="#">
+                        <img src="images/cont2_img2.webp" alt="">
+                        <h2 style="margin-top: 20px;">Xbox Game Pass Ultimate</h2>
+                        <p style="font-size: 16px; margin: 10px 2px;">Unwrap 100+ great games and EA Play, plus get your 
+                        first 8 months of membership for ₹ 699. Offer available to new subscribers only.</p>
+                        <a href="#" style="color: darkred; font-size: 18px; margin-top: 20px;"> 
+                            Join now > 
+                        </a>
+                    </a>
+                </div>
+                <div class="cont2_divBox">
+                    <a href="#">
+                        <img src="images/cont2_img3.webp" alt="">
+                        <h2 style="margin-top: 20px;">Microsoft 365</h2>
+                        <p style="font-size: 16px; margin: 10px 2px;">Unwrap inspiration with best-in-class 
+                        apps like Word, Excel and PowerPoint.</p>
+                        <a href="#" style="color: darkred; font-size: 18px; "> 
+                            Shop for Microsoft 365 Family > 
+                        </a> <br><br>
+                        <a href="#" style="color: darkred; font-size: 18px;"> 
+                            Shop for Microsoft 365 personal > 
+                        </a>
+                    </a>
+                </div>
+                <div class="cont2_divBox">
+                    <a href="#">
+                        <img src="images/cont2_img4.webp" alt="">
+                        <h2 style="margin-top: 20px;">Microsoft Edge</h2>
+                        <p style="font-size: 16px; margin: 10px 2px;">World-class performance with more privacy, 
+                        more productivity and more value while you browse.</p>
+                        <a href="#" style="color: darkred; font-size: 18px; margin-top: 20px;"> 
+                            Download now > 
+                        </a>
+                    </a>
+                </div>
+            </div>
+            <div id="cont3">
+            <img src="images/microsoft_OneDrive.webp" alt="">
+            <h1 style="margin: 10px 100px;">Microsoft OneDrive</h1>
+            <p style="margin: 0px 100px;">Save your files and photos to OneDrive and access them from any device, <br> anywhere</p>
+            <input type="button" value="Learn more >" id="btn1">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
